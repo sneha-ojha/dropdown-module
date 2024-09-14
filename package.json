@@ -13,6 +13,9 @@
   ],
   "author": "Sneha Kashyap Ojha",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/your-repo-name/issues"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",

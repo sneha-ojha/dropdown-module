@@ -1,0 +1,9 @@
+/* src/styles.css */
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content.visible {
+    display: block;
+}

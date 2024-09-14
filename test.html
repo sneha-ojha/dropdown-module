@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Dropdown Module</title>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropdown-btn">food</button>
+        <div class="dropdown-content">
+            <a href="#">steamed momos</a>
+            <a href="#">fried momos</a>
+            <a href="#">pan fried momos</a>
+        </div>
+    </div>
+
+    <script src="dist/dropdown-module.js"></script>
+    <script>
+        // Assuming your module exposes a global DropdownModule
+        new DropdownModule('.dropdown-btn');
+    </script>
+</body>
+</html>
